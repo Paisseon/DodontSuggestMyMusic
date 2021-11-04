@@ -1,9 +1,9 @@
 Package: ai.paisseon.dodontsuggest
 Name: Dodon't Suggest My Music
 Author: Paisseon
-Description: Improves the Dodo tweak. Made for Sudo and Bryce
+Description: Customisation for the Dodo tweak
 Maintainer: Paisseon
-Version: 1.2.1
-Depends: firmware (>= 13.0), mobilesubstrate, org.thebigboss.libcolorpicker, com.smokin1337.ldrestarthelper
+Version: 1.3
+Depends: firmware (>= 13.0), mobilesubstrate, org.thebigboss.libcolorpicker
 Architecture: iphoneos-arm
 Icon: https://paisseon.github.io/info/dodontsuggest.png

@@ -1,11 +1,10 @@
 #import "SkittyPrefs/SPSettingsController.h"
+#import <spawn.h>
 
 @interface DDSettingsController : SPSettingsController
 @end
 
-@interface NSTask : NSObject
-- (id) init;
-- (void) launch;
-- (void) setLaunchPath: (NSString*) arg1;
-- (void) setArguments: (NSArray*) arg1;
-@end
+// @interface FBSystemService : NSObject
+// +(id)sharedInstance;
+// -(void)exitAndRelaunch:(bool)arg0;
+// @end

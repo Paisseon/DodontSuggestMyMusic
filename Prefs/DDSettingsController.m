@@ -14,9 +14,11 @@
 }
 
 - (void) respring {
-	NSTask* task = [[NSTask alloc] init];
-	[task setLaunchPath:@"/usr/bin/sreboot"]; // use bash
-	[task setArguments:[NSArray arrayWithObjects:@"ldrestart", nil]]; // and use the CyPwn script (thanks Sudo!)
-	[task launch]; // run the script
+	// [[(Class)objc_getClass("FBSystemService") sharedInstance] exitAndRelaunch:true]; // doesn't work here but keeping bc it might be useful elsewhere
+	setuid(0);
+	setgid(0);
+	pid_t pid;
+	const char *args[] = {"sbreload", NULL, NULL, NULL};
+	posix_spawn(&pid, "usr/bin/sbreload", NULL, NULL, (char *const *)args, NULL);
 }
 @end
