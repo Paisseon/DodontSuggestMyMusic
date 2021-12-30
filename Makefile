@@ -1,4 +1,5 @@
 export SYSROOT = $(THEOS)/sdks/iPhoneOS14.4.sdk/
+export DEVELOPER_DIR=/Applications/Xcode11.app/Contents/Developer
 export ARCHS = arm64 arm64e
 export TARGET = iphone:clang:latest:13.0
 

@@ -48,20 +48,6 @@
 			<key>defaults</key>
 			<string>ai.paisseon.dodontsuggest</string>
 			<key>key</key>
-			<string>hideMusicPlayer</string>
-			<key>label</key>
-			<string>Hide Music Player</string>
-		</dict>
-		<dict>
-			<key>PostNotification</key>
-			<string>ai.paisseon.dodontsuggest.prefschanged</string>
-			<key>cell</key>
-			<string>PSSwitchCell</string>
-			<key>default</key>
-			<true/>
-			<key>defaults</key>
-			<string>ai.paisseon.dodontsuggest</string>
-			<key>key</key>
 			<string>colourTime</string>
 			<key>label</key>
 			<string>Colour Labels</string>
@@ -98,13 +84,12 @@
 			<string>PSButtonCell</string>
 			<key>label</key>
 			<string>Apply Changes</string>
+			<key>footerText</key>
+			<string>To apply colour changes, use "sudo ldrestart".</string>
 		</dict>
 		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
-			<key>footerText</key>
-			<string>
-To apply changes to the colour, go to NewTerm and type "sudo ldrestart".</string>
 		</dict>
 		<dict>
 			<key>cellClass</key>
@@ -120,7 +105,7 @@ To apply changes to the colour, go to NewTerm and type "sudo ldrestart".</string
 	<key>name</key>
 	<string>Dodon't Suggest My Music</string>
 	<key>subtitle</key>
-	<string>v1.3</string>
+	<string>v1.6</string>
 	<key>textColor</key>
 	<string>#ffffff</string>
 </dict>
