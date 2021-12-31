@@ -25,34 +25,6 @@
 			<string>Enable</string>
 		</dict>
 		<dict>
-			<key>PostNotification</key>
-			<string>ai.paisseon.dodontsuggest.prefschanged</string>
-			<key>cell</key>
-			<string>PSSwitchCell</string>
-			<key>default</key>
-			<true/>
-			<key>defaults</key>
-			<string>ai.paisseon.dodontsuggest</string>
-			<key>key</key>
-			<string>hideSuggestions</string>
-			<key>label</key>
-			<string>Hide Suggestions</string>
-		</dict>
-		<dict>
-			<key>PostNotification</key>
-			<string>ai.paisseon.dodontsuggest.prefschanged</string>
-			<key>cell</key>
-			<string>PSSwitchCell</string>
-			<key>default</key>
-			<true/>
-			<key>defaults</key>
-			<string>ai.paisseon.dodontsuggest</string>
-			<key>key</key>
-			<string>colourTime</string>
-			<key>label</key>
-			<string>Colour Labels</string>
-		</dict>
-		<dict>
 			<key>cell</key>
 			<string>PSLinkCell</string>
 			<key>cellClass</key>
@@ -71,7 +43,7 @@
 				<true/>
 			</dict>
 			<key>label</key>
-			<string>Dodo Time Colour</string>
+			<string>Dodo Colour</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -103,9 +75,9 @@
 		</dict>
 	</array>
 	<key>name</key>
-	<string>Dodon't Suggest My Music</string>
+	<string>Dodon't</string>
 	<key>subtitle</key>
-	<string>v1.6</string>
+	<string>v1.7</string>
 	<key>textColor</key>
 	<string>#ffffff</string>
 </dict>

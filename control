@@ -1,9 +1,9 @@
 Package: ai.paisseon.dodontsuggest
 Name: Dodon't Suggest My Music
 Author: Paisseon
-Description: Customisation for the Dodo tweak
+Description: Change the colour of the clock in Dodo. The name refers to a previous feature which has since been fixed in Dodo. Props to Ginsu for doing so!
 Maintainer: Paisseon
-Version: 1.6
+Version: 1.7
 Depends: firmware (>= 13.0), mobilesubstrate, org.thebigboss.libcolorpicker
 Architecture: iphoneos-arm
 Icon: https://paisseon.github.io/info/dodontsuggest.png
